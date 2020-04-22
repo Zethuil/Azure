@@ -20,7 +20,7 @@ if ($WebhookData)
 }
 else
 {
- Stop-AzVM -Name $VM -ResourceGroupName $ResourceGroup
+ Stop-AzVM -Name $VM -ResourceGroupName $ResourceGroup -Force
 }
 
 }
