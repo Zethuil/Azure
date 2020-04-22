@@ -2,7 +2,7 @@ workflow Start-TestVm
 {
  Param(
   [string]$VM,
-  [string]$ResourceGroup
+  [string]$ResourceGroup,
   
   [Parameter (Mandatory = $false)]
   [object] $WebhookData
